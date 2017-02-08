@@ -22,11 +22,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.required_ruby_version = '>= 2.0.0'
-  spec.add_dependency 'connection_pool', '~> 2.2'
-  spec.add_dependency 'redis', '~> 3.2'
-  spec.add_dependency 'redis-namespace', '~> 1.5'
+  spec.add_dependency 'connection_pool'
+  spec.add_dependency 'redis'
+  spec.add_dependency 'redis-namespace'
   spec.add_dependency 'activesupport'
-  spec.add_dependency 'msgpack', '~> 0.7.2'
+  spec.add_dependency 'msgpack'
 
   spec.add_development_dependency 'rake', '~> 11.0'
   spec.add_development_dependency 'minitest', '~> 5.8'
